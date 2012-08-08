@@ -23,9 +23,7 @@
 -(void) interceptAndSendEvent: (UIEvent *) event
 {
     for (UITouch *touch in event.allTouches){
-        if ([touch.view isKindOfClass:[UIResponder class]]
-            && touch.phase == UITouchPhaseBegan){
-            
+        if (touch.phase == UITouchPhaseBegan){
             [EventLogger logEvent:EVENT_LOGGER_TOUCHED forObject:touch.view];
         }
     }
