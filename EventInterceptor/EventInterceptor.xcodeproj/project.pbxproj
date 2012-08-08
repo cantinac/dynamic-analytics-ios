@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED109F0715D19D7B00DFB3FF /* UIResponder+EventInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED109F0515D19D7B00DFB3FF /* UIResponder+EventInterceptor.m */; };
+		ED582B5415D00EE900ADE3E0 /* UIViewController+EventInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED582B5315D00EE900ADE3E0 /* UIViewController+EventInterceptor.m */; };
+		ED582B5715D00F2000ADE3E0 /* EventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ED582B5615D00F2000ADE3E0 /* EventLogger.m */; };
+		ED5E1E3415C9A74700AA9333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E3315C9A74700AA9333 /* UIKit.framework */; };
+		ED5E1E3615C9A74700AA9333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E3515C9A74700AA9333 /* Foundation.framework */; };
+		ED5E1E3815C9A74700AA9333 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E3715C9A74700AA9333 /* CoreGraphics.framework */; };
+		ED5E1E3E15C9A74700AA9333 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E3C15C9A74700AA9333 /* InfoPlist.strings */; };
+		ED5E1E4015C9A74700AA9333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E1E3F15C9A74700AA9333 /* main.m */; };
+		ED5E1E4415C9A74700AA9333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E1E4315C9A74700AA9333 /* AppDelegate.m */; };
+		ED5E1E4715C9A74700AA9333 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E4515C9A74700AA9333 /* MainStoryboard_iPhone.storyboard */; };
+		ED5E1E4A15C9A74700AA9333 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E4815C9A74700AA9333 /* MainStoryboard_iPad.storyboard */; };
+		ED5E1E4D15C9A74700AA9333 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E1E4C15C9A74700AA9333 /* FirstViewController.m */; };
+		ED5E1E4F15C9A74700AA9333 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E4E15C9A74700AA9333 /* first.png */; };
+		ED5E1E5115C9A74700AA9333 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E5015C9A74700AA9333 /* first@2x.png */; };
+		ED5E1E5415C9A74700AA9333 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E1E5315C9A74700AA9333 /* SecondViewController.m */; };
+		ED5E1E5615C9A74700AA9333 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E5515C9A74700AA9333 /* second.png */; };
+		ED5E1E5815C9A74700AA9333 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E5715C9A74700AA9333 /* second@2x.png */; };
+		ED5E1E6015C9A74700AA9333 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E5F15C9A74700AA9333 /* SenTestingKit.framework */; };
+		ED5E1E6115C9A74700AA9333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E3315C9A74700AA9333 /* UIKit.framework */; };
+		ED5E1E6215C9A74700AA9333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E1E3515C9A74700AA9333 /* Foundation.framework */; };
+		ED5E1E6A15C9A74700AA9333 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED5E1E6815C9A74700AA9333 /* InfoPlist.strings */; };
+		ED5E1E6D15C9A74700AA9333 /* EventInterceptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E1E6C15C9A74700AA9333 /* EventInterceptorTests.m */; };
+		EDDAC7F015CACDF5000E4CD7 /* UIApplication+EventInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDAC7EF15CACDF5000E4CD7 /* UIApplication+EventInterceptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5E1E6315C9A74700AA9333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5E1E2615C9A74700AA9333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5E1E2E15C9A74700AA9333;
+			remoteInfo = EventInterceptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED109F0515D19D7B00DFB3FF /* UIResponder+EventInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+EventInterceptor.m"; sourceTree = "<group>"; };
+		ED109F0615D19D7B00DFB3FF /* UIResponder+EventInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+EventInterceptor.h"; sourceTree = "<group>"; };
+		ED582B5215D00EE900ADE3E0 /* UIViewController+EventInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EventInterceptor.h"; sourceTree = "<group>"; };
+		ED582B5315D00EE900ADE3E0 /* UIViewController+EventInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EventInterceptor.m"; sourceTree = "<group>"; };
+		ED582B5515D00F2000ADE3E0 /* EventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogger.h; sourceTree = "<group>"; };
+		ED582B5615D00F2000ADE3E0 /* EventLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLogger.m; sourceTree = "<group>"; };
+		ED5E1E2F15C9A74700AA9333 /* EventInterceptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventInterceptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E1E3315C9A74700AA9333 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED5E1E3515C9A74700AA9333 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED5E1E3715C9A74700AA9333 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED5E1E3B15C9A74700AA9333 /* EventInterceptor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventInterceptor-Info.plist"; sourceTree = "<group>"; };
+		ED5E1E3D15C9A74700AA9333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED5E1E3F15C9A74700AA9333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED5E1E4115C9A74700AA9333 /* EventInterceptor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventInterceptor-Prefix.pch"; sourceTree = "<group>"; };
+		ED5E1E4215C9A74700AA9333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED5E1E4315C9A74700AA9333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED5E1E4615C9A74700AA9333 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		ED5E1E4915C9A74700AA9333 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		ED5E1E4B15C9A74700AA9333 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ED5E1E4C15C9A74700AA9333 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ED5E1E4E15C9A74700AA9333 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ED5E1E5015C9A74700AA9333 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ED5E1E5215C9A74700AA9333 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ED5E1E5315C9A74700AA9333 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ED5E1E5515C9A74700AA9333 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ED5E1E5715C9A74700AA9333 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ED5E1E5E15C9A74700AA9333 /* EventInterceptorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventInterceptorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E1E5F15C9A74700AA9333 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED5E1E6715C9A74700AA9333 /* EventInterceptorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventInterceptorTests-Info.plist"; sourceTree = "<group>"; };
+		ED5E1E6915C9A74700AA9333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED5E1E6B15C9A74700AA9333 /* EventInterceptorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventInterceptorTests.h; sourceTree = "<group>"; };
+		ED5E1E6C15C9A74700AA9333 /* EventInterceptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventInterceptorTests.m; sourceTree = "<group>"; };
+		EDDAC7EE15CACDF5000E4CD7 /* UIApplication+EventInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+EventInterceptor.h"; sourceTree = "<group>"; };
+		EDDAC7EF15CACDF5000E4CD7 /* UIApplication+EventInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+EventInterceptor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5E1E2C15C9A74700AA9333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E3415C9A74700AA9333 /* UIKit.framework in Frameworks */,
+				ED5E1E3615C9A74700AA9333 /* Foundation.framework in Frameworks */,
+				ED5E1E3815C9A74700AA9333 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E1E5A15C9A74700AA9333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E6015C9A74700AA9333 /* SenTestingKit.framework in Frameworks */,
+				ED5E1E6115C9A74700AA9333 /* UIKit.framework in Frameworks */,
+				ED5E1E6215C9A74700AA9333 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5E1E2415C9A74700AA9333 = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E3915C9A74700AA9333 /* EventInterceptor */,
+				ED5E1E6515C9A74700AA9333 /* EventInterceptorTests */,
+				ED5E1E3215C9A74700AA9333 /* Frameworks */,
+				ED5E1E3015C9A74700AA9333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5E1E3015C9A74700AA9333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E2F15C9A74700AA9333 /* EventInterceptor.app */,
+				ED5E1E5E15C9A74700AA9333 /* EventInterceptorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5E1E3215C9A74700AA9333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E3315C9A74700AA9333 /* UIKit.framework */,
+				ED5E1E3515C9A74700AA9333 /* Foundation.framework */,
+				ED5E1E3715C9A74700AA9333 /* CoreGraphics.framework */,
+				ED5E1E5F15C9A74700AA9333 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5E1E3915C9A74700AA9333 /* EventInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E4215C9A74700AA9333 /* AppDelegate.h */,
+				ED5E1E4315C9A74700AA9333 /* AppDelegate.m */,
+				ED5E1E4515C9A74700AA9333 /* MainStoryboard_iPhone.storyboard */,
+				ED5E1E4815C9A74700AA9333 /* MainStoryboard_iPad.storyboard */,
+				ED5E1E4B15C9A74700AA9333 /* FirstViewController.h */,
+				ED5E1E4C15C9A74700AA9333 /* FirstViewController.m */,
+				ED5E1E4E15C9A74700AA9333 /* first.png */,
+				ED5E1E5015C9A74700AA9333 /* first@2x.png */,
+				ED5E1E5215C9A74700AA9333 /* SecondViewController.h */,
+				ED5E1E5515C9A74700AA9333 /* second.png */,
+				ED5E1E5315C9A74700AA9333 /* SecondViewController.m */,
+				ED5E1E5715C9A74700AA9333 /* second@2x.png */,
+				ED5E1E3A15C9A74700AA9333 /* Supporting Files */,
+				EDDAC7EE15CACDF5000E4CD7 /* UIApplication+EventInterceptor.h */,
+				EDDAC7EF15CACDF5000E4CD7 /* UIApplication+EventInterceptor.m */,
+				ED582B5215D00EE900ADE3E0 /* UIViewController+EventInterceptor.h */,
+				ED582B5315D00EE900ADE3E0 /* UIViewController+EventInterceptor.m */,
+				ED109F0515D19D7B00DFB3FF /* UIResponder+EventInterceptor.m */,
+				ED109F0615D19D7B00DFB3FF /* UIResponder+EventInterceptor.h */,
+				ED582B5515D00F2000ADE3E0 /* EventLogger.h */,
+				ED582B5615D00F2000ADE3E0 /* EventLogger.m */,
+			);
+			path = EventInterceptor;
+			sourceTree = "<group>";
+		};
+		ED5E1E3A15C9A74700AA9333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E3B15C9A74700AA9333 /* EventInterceptor-Info.plist */,
+				ED5E1E3C15C9A74700AA9333 /* InfoPlist.strings */,
+				ED5E1E3F15C9A74700AA9333 /* main.m */,
+				ED5E1E4115C9A74700AA9333 /* EventInterceptor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED5E1E6515C9A74700AA9333 /* EventInterceptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E6B15C9A74700AA9333 /* EventInterceptorTests.h */,
+				ED5E1E6C15C9A74700AA9333 /* EventInterceptorTests.m */,
+				ED5E1E6615C9A74700AA9333 /* Supporting Files */,
+			);
+			path = EventInterceptorTests;
+			sourceTree = "<group>";
+		};
+		ED5E1E6615C9A74700AA9333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E1E6715C9A74700AA9333 /* EventInterceptorTests-Info.plist */,
+				ED5E1E6815C9A74700AA9333 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5E1E2E15C9A74700AA9333 /* EventInterceptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E1E7015C9A74700AA9333 /* Build configuration list for PBXNativeTarget "EventInterceptor" */;
+			buildPhases = (
+				ED5E1E2B15C9A74700AA9333 /* Sources */,
+				ED5E1E2C15C9A74700AA9333 /* Frameworks */,
+				ED5E1E2D15C9A74700AA9333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventInterceptor;
+			productName = EventInterceptor;
+			productReference = ED5E1E2F15C9A74700AA9333 /* EventInterceptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5E1E5D15C9A74700AA9333 /* EventInterceptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E1E7315C9A74700AA9333 /* Build configuration list for PBXNativeTarget "EventInterceptorTests" */;
+			buildPhases = (
+				ED5E1E5915C9A74700AA9333 /* Sources */,
+				ED5E1E5A15C9A74700AA9333 /* Frameworks */,
+				ED5E1E5B15C9A74700AA9333 /* Resources */,
+				ED5E1E5C15C9A74700AA9333 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5E1E6415C9A74700AA9333 /* PBXTargetDependency */,
+			);
+			name = EventInterceptorTests;
+			productName = EventInterceptorTests;
+			productReference = ED5E1E5E15C9A74700AA9333 /* EventInterceptorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5E1E2615C9A74700AA9333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "David Fox";
+			};
+			buildConfigurationList = ED5E1E2915C9A74700AA9333 /* Build configuration list for PBXProject "EventInterceptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED5E1E2415C9A74700AA9333;
+			productRefGroup = ED5E1E3015C9A74700AA9333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5E1E2E15C9A74700AA9333 /* EventInterceptor */,
+				ED5E1E5D15C9A74700AA9333 /* EventInterceptorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5E1E2D15C9A74700AA9333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E3E15C9A74700AA9333 /* InfoPlist.strings in Resources */,
+				ED5E1E4715C9A74700AA9333 /* MainStoryboard_iPhone.storyboard in Resources */,
+				ED5E1E4A15C9A74700AA9333 /* MainStoryboard_iPad.storyboard in Resources */,
+				ED5E1E4F15C9A74700AA9333 /* first.png in Resources */,
+				ED5E1E5115C9A74700AA9333 /* first@2x.png in Resources */,
+				ED5E1E5615C9A74700AA9333 /* second.png in Resources */,
+				ED5E1E5815C9A74700AA9333 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E1E5B15C9A74700AA9333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E6A15C9A74700AA9333 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED5E1E5C15C9A74700AA9333 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5E1E2B15C9A74700AA9333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E4015C9A74700AA9333 /* main.m in Sources */,
+				ED5E1E4415C9A74700AA9333 /* AppDelegate.m in Sources */,
+				ED5E1E4D15C9A74700AA9333 /* FirstViewController.m in Sources */,
+				ED5E1E5415C9A74700AA9333 /* SecondViewController.m in Sources */,
+				EDDAC7F015CACDF5000E4CD7 /* UIApplication+EventInterceptor.m in Sources */,
+				ED582B5415D00EE900ADE3E0 /* UIViewController+EventInterceptor.m in Sources */,
+				ED582B5715D00F2000ADE3E0 /* EventLogger.m in Sources */,
+				ED109F0715D19D7B00DFB3FF /* UIResponder+EventInterceptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E1E5915C9A74700AA9333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E1E6D15C9A74700AA9333 /* EventInterceptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5E1E6415C9A74700AA9333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5E1E2E15C9A74700AA9333 /* EventInterceptor */;
+			targetProxy = ED5E1E6315C9A74700AA9333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED5E1E3C15C9A74700AA9333 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5E1E3D15C9A74700AA9333 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED5E1E4515C9A74700AA9333 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5E1E4615C9A74700AA9333 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5E1E4815C9A74700AA9333 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5E1E4915C9A74700AA9333 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5E1E6815C9A74700AA9333 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5E1E6915C9A74700AA9333 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5E1E6E15C9A74700AA9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5E1E6F15C9A74700AA9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5E1E7115C9A74700AA9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventInterceptor/EventInterceptor-Prefix.pch";
+				INFOPLIST_FILE = "EventInterceptor/EventInterceptor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED5E1E7215C9A74700AA9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventInterceptor/EventInterceptor-Prefix.pch";
+				INFOPLIST_FILE = "EventInterceptor/EventInterceptor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED5E1E7415C9A74700AA9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EventInterceptor.app/EventInterceptor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventInterceptor/EventInterceptor-Prefix.pch";
+				INFOPLIST_FILE = "EventInterceptorTests/EventInterceptorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ED5E1E7515C9A74700AA9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EventInterceptor.app/EventInterceptor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventInterceptor/EventInterceptor-Prefix.pch";
+				INFOPLIST_FILE = "EventInterceptorTests/EventInterceptorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5E1E2915C9A74700AA9333 /* Build configuration list for PBXProject "EventInterceptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E1E6E15C9A74700AA9333 /* Debug */,
+				ED5E1E6F15C9A74700AA9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5E1E7015C9A74700AA9333 /* Build configuration list for PBXNativeTarget "EventInterceptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E1E7115C9A74700AA9333 /* Debug */,
+				ED5E1E7215C9A74700AA9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5E1E7315C9A74700AA9333 /* Build configuration list for PBXNativeTarget "EventInterceptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E1E7415C9A74700AA9333 /* Debug */,
+				ED5E1E7515C9A74700AA9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5E1E2615C9A74700AA9333 /* Project object */;
+}
